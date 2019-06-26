@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/bt_apkmanager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="apk管理" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/bt_turnoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="定时开关机" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/bt_gpio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="红绿灯闪烁控制" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/bt_keycode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按键捕获" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/bt_netcfg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网络配置" />
+
+</LinearLayout>

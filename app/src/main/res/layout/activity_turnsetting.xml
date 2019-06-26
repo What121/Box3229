@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.TurnoffActivity">
+
+    <TimePicker
+        android:id="@+id/timepicker_turnoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TimePicker>
+
+    <TextView
+        android:id="@+id/tv_turnoff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="15sp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <CheckBox
+        android:id="@+id/fun_turnoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="循环定时关机"
+        android:textSize="15sp"
+        android:textColor="@color/colorLightBlue"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+
+    <Button
+        android:id="@+id/bt_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="完成"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

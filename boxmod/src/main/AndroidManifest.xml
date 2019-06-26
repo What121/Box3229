@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bestom.boxmod" >
+
+ <application  >
+     <receiver android:name="com.bestom.boxmod.broadcastreceiver.MyReceiver">
+         <intent-filter>
+             <action android:name="com.huanyu.setting.shutdown" />
+             <action android:name="com.huanyu.setting.sleep" />
+             <action android:name="com.huanyu.setting.wakeup" />
+             <category android:name="android.intent.category.DEFAULT" />
+         </intent-filter>
+     </receiver>
+
+ </application>
+
+
+</manifest>
