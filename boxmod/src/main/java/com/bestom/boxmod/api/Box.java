@@ -31,7 +31,6 @@ public class Box {
     //定时关机
     public void Wakeup(long starttime){
         repeatWakeup(starttime,false);
-
     }
 
     //循环定时关机
@@ -41,13 +40,11 @@ public class Box {
         }else {
             WakeupManager.getInstance(mContext).wakeup(starttime);
         }
-
     }
 
     //休眠
     public void sleep(long starttime){
         repeatSleep(starttime,false);
-
     }
 
     //循环定时休眠
@@ -57,7 +54,6 @@ public class Box {
         }else {
             SleepManager.getInstance(mContext).sleep(starttime);
         }
-
     }
 
 //    //唤醒
